@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 3 - DOM</title>
+    
+</head>
+<body>
+
+    <h1>Atividade 3 - Manipulação do DOM</h1>
+
+    <section>
+        <h2>Contador de Cliques</h2>
+        <button id="btn-incrementar">Incrementar</button>
+        <button id="btn-decrementar">Decrementar</button>
+        <span id="valor-contador">0</span>
+    </section>
+
+    <section>
+        <h2>Texto Dinâmico</h2>
+        <input type="text" id="input-texto" placeholder="Digite e aperte Enter...">
+        <p>Caracteres (sem espaços): <span id="contagem-caracteres">0</span></p>
+        <div id="area-paragrafos"></div>
+    </section>
+
+    <section>
+        <h2>Adicionar Novo Item</h2>
+        <select id="tipo-lista">
+            <option value="ul">Lista Não Ordenada (Bolinhas)</option>
+            <option value="ol">Lista Ordenada (Números)</option>
+        </select>
+        <br><br>
+        <input type="text" id="input-item" placeholder="Digite o item da lista">
+        <button id="btn-adicionar-item">Adicionar Item</button>
+        
+        <div id="area-listas">
+            <ul id="lista-ul"></ul>
+            <ol id="lista-ol"></ol>
+        </div>
+    </section>
+
+    <section>
+        <button id="btn-reset" class="reset-btn">Resetar Tudo</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
